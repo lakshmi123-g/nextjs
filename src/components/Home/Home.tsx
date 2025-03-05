@@ -1,8 +1,11 @@
 import React from 'react'
+import ZHero from './Hero/ZHero'
 
 const Home = () => {
   return (
-    <div className="overflow-hidden h-[10000px]">Home </div>
+    <div className="overflow-hidden">
+      <ZHero/>
+       </div>
   )
 }
 
